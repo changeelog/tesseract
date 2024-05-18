@@ -1,0 +1,23 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "test --watch": "jest --watch",
+    "test --watchAll": "jest --watchAll",
+    "test --verbose": "jest --verbose",
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tesseract.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
